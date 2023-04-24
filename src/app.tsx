@@ -1,4 +1,4 @@
-import { ChakraProvider, ColorModeProvider, Heading } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
 import theme from "./theme";
 import NavBar from "./NavBar";
 
