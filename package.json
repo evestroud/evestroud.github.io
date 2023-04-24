@@ -9,7 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.13.1"
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
+    "preact": "^10.13.1",
+    "preact-router": "^4.1.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
