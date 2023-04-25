@@ -1,5 +1,5 @@
 import {
-  Box,
+  Flex,
   Heading,
   IconButton,
   useColorMode,
@@ -9,22 +9,16 @@ import { SunIcon } from "@chakra-ui/icons";
 
 const NavBar = () => {
   const { toggleColorMode } = useColorMode();
-  const boxBg = useColorModeValue("lightgray", "darkgray");
+  const bg = useColorModeValue("lightgray", "darkgray");
   return (
-    <Box
-      bg={boxBg}
-      display="flex"
-      justifyContent="space-between"
-      w="100%"
-      p="1rem"
-    >
+    <Flex bg={bg} justifyContent="space-between" w="100%" p="1rem">
       <Heading>Eve Stroud</Heading>
       <IconButton
         icon={<SunIcon />}
         aria-label="Toggle color theme"
         onClick={toggleColorMode}
       ></IconButton>
-    </Box>
+    </Flex>
   );
 };
 

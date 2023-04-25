@@ -1,4 +1,4 @@
-import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeProvider, Flex } from "@chakra-ui/react";
 import theme from "./theme";
 import NavBar from "./NavBar";
 
@@ -7,7 +7,9 @@ export function App() {
     <>
       <ChakraProvider theme={theme}>
         <ColorModeProvider>
-          <NavBar />
+          <Flex>
+            <NavBar />
+          </Flex>
         </ColorModeProvider>
       </ChakraProvider>
     </>
