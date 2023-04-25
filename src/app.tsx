@@ -1,19 +1,13 @@
-import { ChakraProvider, ColorModeProvider, Flex } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
 import theme from "./theme";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import Portfolio from "./Portfolio";
 
 export function App() {
   return (
-    <>
-      <ChakraProvider theme={theme}>
-        <ColorModeProvider>
-          <Flex flexDir="column" justifyContent="space-between" minH="100vh">
-            <NavBar />
-            <Footer />
-          </Flex>
-        </ColorModeProvider>
-      </ChakraProvider>
-    </>
+    <ChakraProvider theme={theme}>
+      <ColorModeProvider>
+        <Portfolio />
+      </ColorModeProvider>
+    </ChakraProvider>
   );
 }

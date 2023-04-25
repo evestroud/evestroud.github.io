@@ -5,6 +5,18 @@ const config: ThemeConfig = {
   useSystemColorMode: true,
 };
 
-const theme = extendTheme({ config });
+const theme = extendTheme({
+  config,
+  colors: {
+    bg: {
+      light: "#F7F5FF",
+      dark: "#322f36",
+    },
+    text: {
+      light: "#322f36",
+      dark: "#F7F5FF",
+    },
+  },
+});
 
 export default theme;
