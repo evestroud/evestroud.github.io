@@ -1,7 +1,6 @@
-import { Box, Heading, useColorModeValue } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 
-const Footer = () => {
-  const bg = useColorModeValue("purple.100", "purple.800");
+const Footer = ({ bg }: { bg: string }) => {
   return (
     <Box as="footer" bg={bg}>
       <Heading size="xs" as="h5" textAlign="right" mr="1" p="px">
