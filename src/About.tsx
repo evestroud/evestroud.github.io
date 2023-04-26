@@ -1,6 +1,6 @@
 import { Box, Container, Heading } from "@chakra-ui/react";
 
-const About = ({ bg }: { bg: string }) => {
+const About = ({ bg }: { bg: string; path: string }) => {
   const p = "1rem";
   const my = "1rem";
   const borderRadius = "10px";
