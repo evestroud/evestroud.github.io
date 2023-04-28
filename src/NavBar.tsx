@@ -22,7 +22,7 @@ const Header = ({ bg }: { bg: string }) => {
       </Flex>
       <Flex as="nav" justifyContent="space-around">
         <Link href="/">About Me</Link>
-        <Link>Portfolio</Link>
+        <Link href="/projects">Projects</Link>
       </Flex>
     </Box>
   );
