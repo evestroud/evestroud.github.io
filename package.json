@@ -15,7 +15,8 @@
     "@emotion/styled": "^11",
     "framer-motion": "^6",
     "preact": "^10.13.1",
-    "preact-router": "^4.1.0"
+    "preact-router": "^4.1.0",
+    "react-icons": "^4.9.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
