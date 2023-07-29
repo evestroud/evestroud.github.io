@@ -13,10 +13,12 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "chakra-ui-markdown-renderer": "^4.1.0",
     "framer-motion": "^6",
     "preact": "^10.13.1",
     "preact-router": "^4.1.0",
-    "react-icons": "^4.9.0"
+    "react-icons": "^4.9.0",
+    "react-markdown": "^8.0.7"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
