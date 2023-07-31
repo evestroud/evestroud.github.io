@@ -16,7 +16,7 @@ jobs:
       - name: Install
         run: |
           yarn install
-          mv preact-router-package.json node_modules/preact-router/package.json
+          bash ./crude-fixes.sh
           yarn build
 
       - name: Deploy 🚀
